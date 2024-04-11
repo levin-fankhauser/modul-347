@@ -2,9 +2,10 @@
   "name": "modul-347",
   "version": "1.0.0",
   "description": "a app for modul-347",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node app.js"
   },
   "author": "Levin Fankhauser",
   "license": "ISC",
