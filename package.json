@@ -1,0 +1,15 @@
+{
+  "name": "modul-347",
+  "version": "1.0.0",
+  "description": "a app for modul-347",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Levin Fankhauser",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  }
+}
