@@ -9,8 +9,21 @@ html {
 
 body {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#dialog {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -26,6 +39,7 @@ button {
     cursor: pointer;
     border-radius: 10px;
     transition: all .15s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 
 button:hover {
@@ -51,7 +65,8 @@ button:hover {
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
+    border-radius: 20px;
 }
 
 .close {
@@ -68,8 +83,15 @@ button:hover {
     cursor: pointer;
 }
 
+#delete-button-field {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
 #delete-note {
-    background-image: linear-gradient(144deg,#950c0c, #f41111 50%,#d75858);;
+    background-image: none;
+    background-color: rgb(217, 75, 75);
 }
 
 /*Stil für Hauptseite*/
