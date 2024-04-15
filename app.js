@@ -5,7 +5,6 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-// MongoDB-Verbindung herstellen
 const uri = 'mongodb://localhost:27017';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 let db;
@@ -13,7 +12,7 @@ let db;
 async function connectToMongo() {
     try {
         await client.connect();
-        db = client.db('notes_app'); // Neue Datenbank "notes_app"
+        db = client.db('notes_app');
         console.log('Connected to MongoDB');
     } catch (err) {
         console.error('Error connecting to MongoDB', err);
@@ -22,13 +21,10 @@ async function connectToMongo() {
 
 connectToMongo();
 
-// Middleware für JSON-Parser
 app.use(express.json());
 
-// Statische Dateien servieren
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Routen definieren
 app.get('/notes', async (req, res) => {
     const notes = await db.collection('notes').find({}).toArray();
     res.json(notes);
@@ -43,7 +39,7 @@ app.post('/notes', async (req, res) => {
 app.delete('/notes/:id', async (req, res) => {
     const id = req.params.id;
     try {
-        await db.collection('notes').deleteOne({ _id: new ObjectId(id) }); // Verwende 'new' für ObjectId
+        await db.collection('notes').deleteOne({ _id: new ObjectId(id) }); 
         res.status(200).send('Note deleted successfully');
     } catch (err) {
         console.error('Error deleting note', err);
@@ -51,8 +47,6 @@ app.delete('/notes/:id', async (req, res) => {
     }
 });
 
-
-// Server starten
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });

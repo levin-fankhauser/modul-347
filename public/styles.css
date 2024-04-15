@@ -46,7 +46,7 @@ button:hover {
     transform: scale(1.025);
 }
 
-/* Stil für das Dialog */
+/* Stil für den Dialog */
 .modal {
     display: none; 
     position: fixed; 

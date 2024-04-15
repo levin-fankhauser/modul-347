@@ -58,19 +58,17 @@ function openNoteModal(note) {
 
     deleteButton.addEventListener('click', () => deleteNote(note._id));
 
-    modal.style.display = 'block'; // Zeige das Modal an
+    modal.style.display = 'block'; 
 }
 
 
 function closeNoteModal() {
     const modal = document.getElementById('note-modal');
-    modal.style.display = 'none'; // Verstecke das Modal
+    modal.style.display = 'none'; 
 }
 
-// Schließen des Modals, wenn auf den Schließen-Button geklickt wird
 document.getElementsByClassName('close')[0].addEventListener('click', closeNoteModal);
 
-// Schließen des Modals, wenn außerhalb des Modals geklickt wird
 window.addEventListener('click', function(event) {
     const modal = document.getElementById('note-modal');
     if (event.target === modal) {
@@ -78,7 +76,6 @@ window.addEventListener('click', function(event) {
     }
 });
 
-// Verhindern des Standardverhaltens des Submit-Ereignisses und Aufruf von addNote-Funktion
 document.getElementById('add-note-form').addEventListener('submit', function(event) {
     event.preventDefault();
     addNote();
