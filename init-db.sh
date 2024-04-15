@@ -1,6 +1,10 @@
 #!/bin/bash
 
-mongo mongodb://localhost:27017/notes_app <<EOF
+# Verbindung zur MongoDB-Datenbank herstellen und Demodaten einfügen
+mongo <<EOF
+
+# Datenbank auswählen
+use notes_app
 
 # Füge Demodaten ein
 db.notes.insertMany([
