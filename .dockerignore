@@ -1,0 +1,8 @@
+.git
+.gitignore
+.github
+.env
+node_modules
+.devcontainer
+Dockerfile
+deployment.sh
