@@ -3,7 +3,6 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -13,6 +12,5 @@
 			]
 		}
 	},
-
-	"postCreateCommand": "npm install && node init-db.js"
+	"postCreateCommand": "chmod +x setup.sh && sudo bash ./setup.sh"
 }
