@@ -6,3 +6,4 @@ node_modules
 .devcontainer
 Dockerfile
 deployment.sh
+.dockerignore
