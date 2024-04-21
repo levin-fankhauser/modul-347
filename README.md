@@ -72,6 +72,7 @@ or
 ```bash
 sudo ./deployment.sh
 ```
+After pushing your image you can find it on [DockerHub](https://hub.docker.com/repositories).
 
 ### Important 
 To run this deployment script you must be on your local machine and not in your dev-container. You can just pull this project on your machine and run the script with you locally installed bash shell (mostly WSL).
