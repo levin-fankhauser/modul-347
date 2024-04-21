@@ -63,3 +63,20 @@ You can deploy your docker image with the existing ``deployment.sh`` script. To 
 ```bash
 ./deployment.sh
 ```
+
+## Tasks for school mark:
+
+- [x] Demo-Project
+- [x] Documentation
+- [x] Automatic installation
+- [x] Usable Extensions
+- [x] Debugging support
+- [x] Own project
+- [x] Database integration
+- [x] Database tool
+- [x] Productive Container
+- [x] Automatic deployment
+- [x] Safe handling of sensitive data
+- [x] Demo data
+- [] alternative solution
+- [x] One-Click setup
