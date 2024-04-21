@@ -78,5 +78,5 @@ You can deploy your docker image with the existing ``deployment.sh`` script. To 
 - [x] Automatic deployment
 - [x] Safe handling of sensitive data
 - [x] Demo data
-- [] alternative solution
+- [ ] alternative solution
 - [x] One-Click setup
