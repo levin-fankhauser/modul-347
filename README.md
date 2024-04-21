@@ -12,7 +12,7 @@ This is a school project that deals with the topic of Docker. The app itself is 
   >
 </a>
 
-To start the project via Docker DevContainer press the button above. The project will install itself with its dependencies. To Start the App with debugging press ``F5`` or go to the ``Run`` Menu in the navigation bar and press ``Start debugging``. You can also start the project via console with:
+To start the project via Docker DevContainer press the button above. The project will install itself with its dependencies. To Start the App with debugging press ``F5`` or go to the ``Run`` Menu in the navigation bar and press ``Start debugging``. Select ``Node.js`` as your debugger. You can also start the project via console with:
 ```bash
 npm start
 ```
