@@ -1,5 +1,8 @@
 # Modul 347
 
+## About the Project
+This is a school project that deals with the topic of Docker. The app itself is a Node.js app that works with HTML, CSS and Javascript. It has a database connection to a MongoDB database. The app is self-developed with the purpose to present a Docker devcontainer with a node.js app and a MongoDB database and a couple of other things.
+
 ## DevContainer
 
 <a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/levin-fankhauser/modul-347.git">
@@ -9,3 +12,4 @@
     height="30"
   >
 </a>
+
