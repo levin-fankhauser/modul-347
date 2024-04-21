@@ -13,4 +13,11 @@ This is a school project that deals with the topic of Docker. The app itself is 
   >
 </a>
 
-To start the project via Docker DevContainer press the button above. The project will install itself with its dependencies. To Start the App press
+To start the project via Docker DevContainer press the button above. The project will install itself with its dependencies. To Start the App with debugging press ``F5`` or go to the ``Run`` Menu in the navigation bar and press ``Start debugging``.
+
+## Database
+The database we use is a MongoDB Database. It runs on port 27017.
+
+### Database Tools
+We have two tools to work with the mongoDB database: 
+MongoDB Express:
