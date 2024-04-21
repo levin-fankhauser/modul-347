@@ -64,6 +64,18 @@ You can deploy your docker image with the existing ``deployment.sh`` script. To 
 ./deployment.sh
 ```
 
+If the access is denied run the following commands:
+```bash
+chmod +x deployment.s
+```
+or
+```bash
+sudo ./deployment.sh
+```
+
+### Important 
+To run this deployment script you must be on your local machine and not in your dev-container. You can just pull this project on your machine and run the script with you locally installed bash shell (mostly WSL).
+
 ## Tasks for school mark:
 
 - [x] Demo-Project
