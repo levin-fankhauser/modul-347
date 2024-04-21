@@ -66,7 +66,7 @@ You can deploy your docker image with the existing ``deployment.sh`` script. To 
 
 If the access is denied run the following commands:
 ```bash
-chmod +x deployment.s
+chmod +x deployment.sh
 ```
 or
 ```bash
