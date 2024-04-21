@@ -8,7 +8,10 @@
 			"extensions": [
 				"mongodb.mongodb-vscode",
 				"esbenp.prettier-vscode",
-				"tal7aouy.icons"
+				"tal7aouy.icons",
+				"ms-azuretools.vscode-docker",
+				"bierner.color-info",
+				"celianriboulet.webvalidator"
 			]
 		}
 	},
